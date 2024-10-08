@@ -1,0 +1,81 @@
+*,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  margin: 15px;
+}
+li {
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.title {
+  padding-right: 15px;
+}
+textarea {
+  resize: none;
+}
+.update__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.notes {
+  background-color: #e4e4e4;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 10px;
+  max-width: 90vw;
+  padding: 7px;
+}
+.note {
+  padding: 5px;
+  word-break: break-all;
+}
+.note__wrap {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+.delete__note {
+  background-image: url(../assets/delete-stop-svgrepo-com.svg);
+  background-size: cover;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 15px;
+  height: 15px;
+}
+.upd__button {
+  background-image: url(../assets/refresh-svgrepo-com.svg);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+.add__note {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.note__textarea {
+  padding: 15px;
+  height: 150px;
+  width: 400px;
+}
+.add-note-btn {
+  background-image: url(../assets/send-message-svgrepo-com.svg);
+  background-size: cover;
+  width: 45px;
+  height:45px;
+}
