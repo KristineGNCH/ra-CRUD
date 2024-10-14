@@ -17,9 +17,10 @@ function NotesAdd({ addNotes }) {
   };
 
   return (
-    <div className="add__note">
+
     <form onSubmit={onSubmit} className="add__note-form form">
-     
+      <div className="new-note__wrap">
+     <h1 className="add-form__title">Новая заметка</h1>
       <textarea
         className="note__textarea"
         value={value}
@@ -27,10 +28,10 @@ function NotesAdd({ addNotes }) {
         name="text"
         required
       />
-    </form>
+</div>
     <button className="add-note-btn button"></button>
+    </form>
 
-    </div>
   );
 }
 
